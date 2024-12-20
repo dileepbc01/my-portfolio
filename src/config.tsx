@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Icons } from './components/icons';
 
 type Config = {
@@ -11,7 +12,7 @@ type Config = {
     icon: keyof typeof Icons;
   }[];
   calendarLink?: string;
-  description: string | JSX.Element;
+  description: string | any;
   descriptionRaw: string;
   projects: {
     name: string;
@@ -31,7 +32,7 @@ type Config = {
     description?: string;
     projects?: {
       repository: string;
-      description: string | JSX.Element;
+      description: string | any;
       title: string;
       link: string;
     }[];
