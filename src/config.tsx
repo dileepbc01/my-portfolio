@@ -46,7 +46,7 @@ type Config = {
 
 export const CONFIG: Config = {
   name: 'Dileep B C',
-  avatar: '/images/author.jpg',
+  avatar: '/my-portfolio/profile-pic.jpg',
   title: 'Software Engineer',
   siteUrl: '',
   socials: [
@@ -64,6 +64,11 @@ export const CONFIG: Config = {
       name: 'dileepbc01@gmail.com',
       url: 'mailto:dileepbc01@gmail.com',
       icon: 'email',
+    },
+    {
+      name: 'LeetCode',
+      url: 'https://leetcode.com/u/dileep32/',
+      icon: 'leetcode',
     },
   ],
   description: (
