@@ -86,7 +86,7 @@ export const CONFIG: Config = {
     {
       id: 1,
       title: 'Aglint AI',
-      date: 'June 2023 - Present',
+      date: 'June 2023 - January 2025',
       description: (
         <>
           Aglint – US-based startup focused on an ATS system enhanced with
