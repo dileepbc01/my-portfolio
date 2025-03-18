@@ -46,7 +46,7 @@ type Config = {
 
 export const CONFIG: Config = {
   name: 'Dileep B C',
-  avatar: '/my-portfolio/profile-pic.jpg',
+  avatar: '/profile-pic.jpg',
   title: 'Software Engineer',
   siteUrl: '',
   socials: [
