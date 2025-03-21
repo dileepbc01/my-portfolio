@@ -81,7 +81,21 @@ export const CONFIG: Config = {
       project ownership and execution.
     </>
   ),
-  projects: [],
+  projects: [
+    {
+      name: 'Resume Analyzer',
+      description:
+        'Resume Analyzer is an AI-powered SaaS tool designed to streamline resume analysis and job matching. It leverages advanced language models to provide accurate insights, helping recruiters efficiently evaluate candidates.',
+      featured: true,
+      tags: [],
+      url: 'https://resume-analyzer.dileeptechlab.com',
+      github: 'https://github.com/dileepbc01/resume-analyser',
+      icon: '' as any,
+      // image:
+      // 'https://resume-analyzer.dileeptechlab.com/_next/image?url=%2Fapp-logo.png&w=256&q=75',
+      testimonial: '',
+    },
+  ],
   experience: [
     {
       id: 1,

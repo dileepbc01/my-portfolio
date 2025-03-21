@@ -1,11 +1,7 @@
-// import { Icons } from '@/components/icons';
-// import OpenSource from '@/components/open-source';
-// import Project from '@/components/project';
 import Header from '@/components/header';
-// import Project from '@/components/project';
+import Project from '@/components/project';
 import { TimelineLayout } from '@/components/timeline/timeline-layout';
 import { CONFIG } from '@/config';
-// import { CONFIG } from '@/config';
 
 export default function Home() {
   return (
@@ -20,7 +16,7 @@ export default function Home() {
         <h2 className='font-semibold mb-6'>Experience</h2>
         <TimelineLayout items={CONFIG.experience} />
       </div>
-      {/* <div className='flex flex-col gap-3'>
+      <div className='flex flex-col gap-3'>
         <h2 className='px-4 font-semibold'>Projects</h2>
         {CONFIG.projects
           .filter((project) => project.featured)
@@ -37,7 +33,7 @@ export default function Home() {
               github={project.github}
             />
           ))}
-      </div> */}
+      </div>
     </div>
   );
 }
