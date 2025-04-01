@@ -67,7 +67,7 @@ export const CONFIG: Config = {
     },
     {
       name: 'LeetCode',
-      url: 'https://leetcode.com/u/dileep32/',
+      url: 'https://leetcode.com/u/NT7UfsLxjG',
       icon: 'leetcode',
     },
   ],
